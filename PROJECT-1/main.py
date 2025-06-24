@@ -1,3 +1,4 @@
+bash'''
 from langchain_core.messages import HumanMessage
 from langchain_openai import ChatOpenAI
 from langchain.tools import tool
@@ -38,4 +39,5 @@ def main():
 if __name__=="__main__":
     main()
             
+'''
 
